@@ -401,7 +401,10 @@ def plot_parameter_sensitivity():
 	plt.suptitle('Parameter Sensitivity Analysis', fontsize=16, y=1.02)
 	plt.show()
 
-
+#Added print statements to confirm simulations are running
 if __name__ == "__main__":
+	print("Running multi-TE signal plot simulation...")
 	plot_multite_signal()
+	print("Running parameter sensitivity analysis simulation...")
 	plot_parameter_sensitivity()
+	print("Simulation completed successfully!")
