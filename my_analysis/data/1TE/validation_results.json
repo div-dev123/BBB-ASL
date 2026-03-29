@@ -1,0 +1,17 @@
+{
+  "n_valid": 1000,
+  "n_total": 1000,
+  "cbf_mean_err_pct": 7.395001483903196,
+  "cbf_std_err_pct": 5.925114429311042,
+  "cbf_bias": 0.25595528412029345,
+  "cbf_corr": NaN,
+  "att_mean_err_pct": 5.144141627838987,
+  "att_std_err_pct": 4.292104783331026,
+  "att_bias": 0.006279428477783974,
+  "att_corr": 0.9445832077775822,
+  "cbf_under_15_pct": 89.8,
+  "att_under_10_pct": 87.2,
+  "fit_time_s": 1.1509859561920166,
+  "noise_sigma": 298.98724365234375,
+  "snr": 10.0
+}

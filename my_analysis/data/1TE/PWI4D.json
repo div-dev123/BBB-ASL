@@ -1,0 +1,19 @@
+{
+  "PostLabelingDelay": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0
+  ],
+  "LabelingDuration": 1.8,
+  "EchoTime": [
+    0.014,
+    0.014,
+    0.014,
+    0.014,
+    0.014
+  ],
+  "RepetitionTime": 5.0,
+  "FlipAngle": 90
+}
