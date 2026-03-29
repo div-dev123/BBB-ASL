@@ -18,7 +18,8 @@ In both algorithms, it is possible to flexibly read in the parameters as nparray
 There is the option of using the values of the LS fitting voxel by voxel as prior for the Bayesian fitting.
 """
 
-with open("config.json", "r") as file:
+_script_dir = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(_script_dir, "config.json"), "r") as file:
 	config = json.load(file)
 
 def create_parameter_config_from_config():
